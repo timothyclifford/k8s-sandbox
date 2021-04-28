@@ -11,6 +11,8 @@ https://kubernetes.io/docs/tasks/tools/
 
 ## Create a deployment
 
+## View logs for a pod
+
 ## Create a service
 
 ## Create an ingress
