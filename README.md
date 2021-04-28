@@ -17,9 +17,9 @@ https://kubernetes.io/docs/tasks/tools/
 
 ## Create apps
 
-`kubectl create -f app-bar.yaml`
+`kubectl apply -f app-bar.yaml`
 
-`kubectl create -f app-foo.yaml`
+`kubectl apply -f app-foo.yaml`
 
 ## View logs for a pod
 
@@ -27,8 +27,10 @@ https://kubernetes.io/docs/tasks/tools/
 
 ## Create an ingress
 
-`kubectl create -f ingress.yaml`
+`kubectl apply -f ingress.yaml`
 
 ## Play around with CLI
+
+Try `describe`, `edit`, `delete` resources or maybe install [k9s](https://k9scli.io/) 
 
 [kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
