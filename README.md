@@ -9,12 +9,26 @@ https://kubernetes.io/docs/tasks/tools/
 - [minikube](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)
 - [kind](https://kind.sigs.k8s.io/docs/user/ingress/)
 
-## Create a deployment
+## Set default context
+
+`kubectl config get-contexts`
+
+`kubectl config set-context CONTEXT_NAME`
+
+## Create apps
+
+`kubectl create -f app-bar.yaml`
+
+`kubectl create -f app-foo.yaml`
 
 ## View logs for a pod
 
-## Create a service
+`kubectl logs POD_NAME`
 
 ## Create an ingress
 
-## Update or delete resources
+`kubectl create -f ingress.yaml`
+
+## Play around with CLI
+
+[kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
